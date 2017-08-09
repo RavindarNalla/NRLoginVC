@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1617EBEEA377AE01AEDF2A3570484D71 /* Pods-NRLoginVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2243F23980E18E607EEA7A371CFB9E00 /* Pods-NRLoginVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BB06AE409DE1BEEF741E6E51EDB1410 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D2274E86D68B740FB598F15CA3E558FE /* ReplaceMe.m */; };
 		37CBF5B088E1CC9A3AB1026C0D5CCCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		595641701F3B21040064544E /* NLLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5956416E1F3B21040064544E /* NLLoginViewController.h */; };
+		595641711F3B21040064544E /* NLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5956416F1F3B21040064544E /* NLLoginViewController.m */; };
 		957E602DC19088AE7F6D6EEA1918CC11 /* NRLoginVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 101375B3BB9726BEFF962DF059DC01D1 /* NRLoginVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A60F2803D68E3279293BF48432E01EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CEFF3E2989A378B82356D7EB772D1D75 /* Pods-NRLoginVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D035078F906DDD15F9406C9775BCCBA /* Pods-NRLoginVC_Tests-dummy.m */; };
@@ -33,19 +34,20 @@
 		2243F23980E18E607EEA7A371CFB9E00 /* Pods-NRLoginVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRLoginVC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3C7C12AA7EA8584E701765A6BB746446 /* Pods-NRLoginVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRLoginVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		58C5A29AB5094FCCD253CF93AFC5E10D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5956416E1F3B21040064544E /* NLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLLoginViewController.h; path = NRLoginVC/Classes/NLLoginViewController.h; sourceTree = "<group>"; };
+		5956416F1F3B21040064544E /* NLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLLoginViewController.m; path = NRLoginVC/Classes/NLLoginViewController.m; sourceTree = "<group>"; };
 		5A5D6C911E3FBF7960B06D11A9DEBFAA /* Pods-NRLoginVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRLoginVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		663317689675B1D37C5C9FCC0736D690 /* NRLoginVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRLoginVC-dummy.m"; sourceTree = "<group>"; };
-		700E49064CBD28791AABF694668C4E52 /* Pods_NRLoginVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRLoginVC_Tests.framework; path = "Pods-NRLoginVC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7138DF1F82C7172AEB9892A31DA5BC68 /* NRLoginVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRLoginVC.framework; path = NRLoginVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83CD20838C6A24C70653263908BFF21C /* Pods-NRLoginVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NRLoginVC_Tests.modulemap"; sourceTree = "<group>"; };
+		700E49064CBD28791AABF694668C4E52 /* Pods_NRLoginVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRLoginVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7138DF1F82C7172AEB9892A31DA5BC68 /* NRLoginVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NRLoginVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CD20838C6A24C70653263908BFF21C /* Pods-NRLoginVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NRLoginVC_Tests.modulemap"; sourceTree = "<group>"; };
 		8D035078F906DDD15F9406C9775BCCBA /* Pods-NRLoginVC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRLoginVC_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9463FE856728AD8DFB606633A975C122 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B17E649CD9FEA0D16B3AFFF502357C57 /* NRLoginVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRLoginVC-prefix.pch"; sourceTree = "<group>"; };
 		BF0BF380CCD12DB33343AC8521D46827 /* NRLoginVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRLoginVC.xcconfig; sourceTree = "<group>"; };
-		C5E162D064A9306C645BA5188F2FE90A /* NRLoginVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NRLoginVC.modulemap; sourceTree = "<group>"; };
-		D2274E86D68B740FB598F15CA3E558FE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NRLoginVC/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C5E162D064A9306C645BA5188F2FE90A /* NRLoginVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NRLoginVC.modulemap; sourceTree = "<group>"; };
 		DB793B1A34457FF249FE8519610B7A78 /* Pods-NRLoginVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRLoginVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5E0E32D3D5B6760EB01EE3353EFF57B /* Pods-NRLoginVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRLoginVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +111,8 @@
 		933F0B941A0A3973E4DB972DF9E416C7 /* NRLoginVC */ = {
 			isa = PBXGroup;
 			children = (
-				D2274E86D68B740FB598F15CA3E558FE /* ReplaceMe.m */,
+				5956416E1F3B21040064544E /* NLLoginViewController.h */,
+				5956416F1F3B21040064544E /* NLLoginViewController.m */,
 				ED4E6942F808B9E52C2C8AB868D0F2EC /* Support Files */,
 			);
 			name = NRLoginVC;
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				957E602DC19088AE7F6D6EEA1918CC11 /* NRLoginVC-umbrella.h in Headers */,
+				595641701F3B21040064544E /* NLLoginViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F491C03A2F80FC8CCD372309F1F212 /* NRLoginVC-dummy.m in Sources */,
-				2BB06AE409DE1BEEF741E6E51EDB1410 /* ReplaceMe.m in Sources */,
+				595641711F3B21040064544E /* NLLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
