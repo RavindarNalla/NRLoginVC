@@ -1,0 +1,6 @@
+framework module NRLoginVC {
+  umbrella header "NRLoginVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
