@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1617EBEEA377AE01AEDF2A3570484D71 /* Pods-NRLoginVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2243F23980E18E607EEA7A371CFB9E00 /* Pods-NRLoginVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37CBF5B088E1CC9A3AB1026C0D5CCCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		595641701F3B21040064544E /* NLLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5956416E1F3B21040064544E /* NLLoginViewController.h */; };
+		595641701F3B21040064544E /* NLLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5956416E1F3B21040064544E /* NLLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		595641711F3B21040064544E /* NLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5956416F1F3B21040064544E /* NLLoginViewController.m */; };
 		957E602DC19088AE7F6D6EEA1918CC11 /* NRLoginVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 101375B3BB9726BEFF962DF059DC01D1 /* NRLoginVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A60F2803D68E3279293BF48432E01EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
