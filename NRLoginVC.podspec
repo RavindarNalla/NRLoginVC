@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NRLoginVC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NRLoginVC.'
+  s.summary          = 'NRLoginVC is A login viewcontroller'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+NRLoginVC is a login viewController in which all the Validations are predefined you just use this as super class while creating Login viewControllr and give IBoutlets.
                        DESC
 
   s.homepage         = 'https://github.com/RavindarNalla/NRLoginVC'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
