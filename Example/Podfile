@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NRLoginVC_Tests' do
+  pod 'NRLoginVC', :path => '../'
+  
+  
+end
